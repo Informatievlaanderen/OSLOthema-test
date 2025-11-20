@@ -1,6 +1,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
-
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
 <https://example.org/id/conceptscheme/SchemeA> a skos:ConceptScheme;
     skos:prefLabel "Scheme A"@nl;
     skos:definition "The first dummy concept scheme."@nl.
@@ -16,7 +16,8 @@
     skos:notation "C2";
     skos:inScheme <https://example.org/id/conceptscheme/SchemeA>;
     skos:topConceptOf <https://example.org/id/conceptscheme/SchemeA>.
-<https://example.org/id/conceptscheme/SchemeB> skos:prefLabel "Scheme B"@nl;
+<https://example.org/id/conceptscheme/SchemeB> a skos:ConceptScheme;
+    skos:prefLabel "Scheme B"@nl;
     skos:definition "The second dummy concept scheme."@nl.
 <https://example.org/id/concept/SchemeB/Concept1> a skos:Concept;
     skos:prefLabel "Concept 1"@nl;
