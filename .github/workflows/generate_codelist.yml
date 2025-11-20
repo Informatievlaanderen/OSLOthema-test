@@ -1,0 +1,14 @@
+name: Convert the codelist.csv into a .ttl file
+
+on:
+  workflow_dispatch:
+    inputs:
+      config-file:
+        description: "Name of the csv file. Example: codelijsten/codelijst.csv"
+        required: true
+
+jobs:
+  call-workflow:
+    uses: Informatievlaanderen/OSLOthema-template/.github/workflows/convert_eap.yml@config
+    with:
+      config-file: ${{ github.event.inputs.config-file }}
