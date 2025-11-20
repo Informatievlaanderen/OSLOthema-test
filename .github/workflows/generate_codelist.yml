@@ -9,6 +9,6 @@ on:
 
 jobs:
   call-workflow:
-    uses: Informatievlaanderen/OSLOthema-template/.github/workflows/convert_eap.yml@config
+    uses: Informatievlaanderen/OSLOthema-template/.github/workflows/generate_codelist.yml@config
     with:
       config-file: ${{ github.event.inputs.config-file }}
