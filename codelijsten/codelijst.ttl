@@ -2,31 +2,31 @@
 
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 <https://example.org/id/conceptscheme/SchemeA> a skos:ConceptScheme;
-    skos:prefLabel "Scheme A"@nl--diagramname;
-    skos:definition "The first dummy concept scheme."@nl--diagramname.
+    skos:prefLabel "Scheme A"@nl;
+    skos:definition "The first dummy concept scheme."@nl.
 <https://example.org/id/concept/SchemeA/Concept1> a skos:Concept;
-    skos:prefLabel "Concept 1"@nl--diagramname;
-    skos:definition "First concept in Scheme A"@nl--diagramname;
+    skos:prefLabel "Concept 1"@nl;
+    skos:definition "First concept in Scheme A"@nl;
     skos:notation "C1";
     skos:inScheme <https://example.org/id/conceptscheme/SchemeA>;
     skos:topConceptOf <https://example.org/id/conceptscheme/SchemeA>.
 <https://example.org/id/concept/SchemeA/Concept2> a skos:Concept;
-    skos:prefLabel "Concept 2"@nl--diagramname;
-    skos:definition "Second concept in Scheme A"@nl--diagramname;
+    skos:prefLabel "Concept 2"@nl;
+    skos:definition "Second concept in Scheme A"@nl;
     skos:notation "C2";
     skos:inScheme <https://example.org/id/conceptscheme/SchemeA>;
     skos:topConceptOf <https://example.org/id/conceptscheme/SchemeA>.
-<https://example.org/id/conceptscheme/SchemeB> skos:prefLabel "Scheme B"@nl--diagramname;
-    skos:definition "The second dummy concept scheme."@nl--diagramname.
+<https://example.org/id/conceptscheme/SchemeB> skos:prefLabel "Scheme B"@nl;
+    skos:definition "The second dummy concept scheme."@nl.
 <https://example.org/id/concept/SchemeB/Concept1> a skos:Concept;
-    skos:prefLabel "Concept 1"@nl--diagramname;
-    skos:definition "First concept in Scheme B"@nl--diagramname;
+    skos:prefLabel "Concept 1"@nl;
+    skos:definition "First concept in Scheme B"@nl;
     skos:notation "B1";
     skos:inScheme <https://example.org/id/conceptscheme/SchemeB>;
     skos:topConceptOf <https://example.org/id/conceptscheme/SchemeB>.
 <https://example.org/id/concept/SchemeB/Concept2> a skos:Concept;
-    skos:prefLabel "Concept 2"@nl--diagramname;
-    skos:definition "Second concept in Scheme B"@nl--diagramname;
+    skos:prefLabel "Concept 2"@nl;
+    skos:definition "Second concept in Scheme B"@nl;
     skos:notation "B2";
     skos:inScheme <https://example.org/id/conceptscheme/SchemeB>;
     skos:topConceptOf <https://example.org/id/conceptscheme/SchemeB>.
