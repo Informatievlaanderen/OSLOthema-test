@@ -16,3 +16,9 @@
     skos:notation "C2";
     skos:inScheme <https://example.org/id/conceptscheme/SchemeA>;
     skos:topConceptOf <https://example.org/id/conceptscheme/SchemeA>.
+<https://example.org/id/concept/SchemeA/Concept3> a skos:Concept;
+    skos:prefLabel "Concept 3"@nl;
+    skos:definition "Third concept in Scheme A"@nl;
+    skos:notation "C3";
+    skos:inScheme <https://example.org/id/conceptscheme/SchemeA>;
+    skos:topConceptOf <https://example.org/id/conceptscheme/SchemeA>.
