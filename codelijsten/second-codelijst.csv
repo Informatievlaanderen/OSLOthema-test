@@ -1,0 +1,4 @@
+@id,@type,prefLabel,definition,inScheme,topConceptOf,notation
+https://example.org/id/conceptscheme/SchemeA,http://www.w3.org/2004/02/skos/core#ConceptScheme,Scheme A,The first dummy concept scheme.,,,
+https://example.org/id/concept/SchemeA/Concept1,http://www.w3.org/2004/02/skos/core#Concept,Concept 1,First concept in Scheme A,https://example.org/id/conceptscheme/SchemeA,https://example.org/id/conceptscheme/SchemeA,C1
+https://example.org/id/concept/SchemeA/Concept2,http://www.w3.org/2004/02/skos/core#Concept,Concept 2,Second concept in Scheme A,https://example.org/id/conceptscheme/SchemeA,https://example.org/id/conceptscheme/SchemeA,C2
