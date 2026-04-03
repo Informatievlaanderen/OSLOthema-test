@@ -3,7 +3,7 @@
     "name": "Belgian Streets and Addresses",
     "type": "ap",
     "eap": "BeSt-Add.eap",
-    "diagram": "BeSt_Address_model",
+    "diagram": "BeSt_Address_Model",
     "template": "bestadd-ap.j2",
     "title": "Applicatieprofiel Belgian Streets and Addresses",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
