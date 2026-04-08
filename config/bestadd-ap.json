@@ -1,6 +1,6 @@
 [
   {
-    "name": "Belgian Streets and Addresses",
+    "name": "bestadd",
     "type": "ap",
     "eap": "BeSt-Add.eap",
     "diagram": "BeSt_Address_Model",
