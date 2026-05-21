@@ -2,17 +2,17 @@
   {
     "name": "Hydranten",
     "type": "ap",
-    "eap": "BeSt-Add.eap",
-    "diagram": "BeSt_Address_Model",
+    "eap": "ICEG-Hydrants-AP.eap",
+    "diagram": "ICEG-Hydrants-AP",
     "template": "bestadd-ap.j2",
-    "title": "Applicatieprofiel Belgian Streets and Addresses",
+    "title": "Applicatieprofiel Hydrants",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "publication-date": "2026-04-03",
+    "publication-date": "2026-05-21",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "MijnKolom",
     "site": "site-skeleton/mijn-applicatieprofiel-ap",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-test/issues",
-    "standaardregisterurl": "https://test.data.vlaanderen.be/doc/applicatieprofiel/bestadd/"
+    "standaardregisterurl": "https://test.data.vlaanderen.be/doc/applicatieprofiel/hydrants/"
   }
 ]
