@@ -1,10 +1,10 @@
 [
   {
-    "name": "Hydranten",
+    "name": "Hydrants",
     "type": "ap",
     "eap": "ICEG-Hydrants-AP.eap",
     "diagram": "ICEG-Hydrants-AP",
-    "template": "bestadd-ap.j2",
+    "template": "hydrants-ap.j2",
     "title": "Applicatieprofiel Hydrants",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "publication-date": "2026-05-21",
