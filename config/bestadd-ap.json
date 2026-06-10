@@ -2,7 +2,7 @@
   {
     "name": "bestadd",
     "type": "ap",
-    "eap": "BeSt-Add_2026-v3.qea",
+    "eap": "BeSt-Add.eap",
     "diagram": "BeSt_Address_Model",
     "template": "bestadd-ap.j2",
     "title": "Applicatieprofiel Belgian Streets and Addresses",
