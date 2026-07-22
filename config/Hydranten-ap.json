@@ -5,7 +5,7 @@
     "eap": "ICEG-Hydrants-AP.eap",
     "diagram": "ICEG-Hydrants-AP",
     "template": "hydrants-ap.j2",
-    "title": "Applicatieprofiel Hydrants",
+    "title": "Application Profile Hydrants",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "publication-date": "2026-05-21",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
